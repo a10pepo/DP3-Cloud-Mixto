@@ -70,6 +70,12 @@ terraform apply
 - Revisar los registros de ejecución de Lambda para mensajes de error detallados
 - Asegurar que la función Lambda tenga los permisos apropiados de acceso a VPC
 
+## Evidencia
+Para verificar que la función Lambda se conecta correctamente a la base de datos RDS, se puede revisar el registro de ejecución de Lambda en CloudWatch. A continuación se muestra un ejemplo de salida exitosa de un test de conexión:
+
+
+![Evidencia](evidence.png)
+
 ## Limpieza
 Para destruir todos los recursos creados por esta configuración:
 ```bash
